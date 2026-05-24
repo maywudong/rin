@@ -9,25 +9,7 @@
       // 允许 增/改文件
       "WriteFile(./**/*)",
       
-      // 允许 删除文件
-      "DeleteFile(./**/*)",
-      
-      // 允许 重命名/移动文件
-      "RenameFile(./**/*)",
-      
-      // 允许所有 Bash 命令（运行、构建、启动项目）
-      "Bash(*)"
-    ],
-    "denyList": [
-      // 只禁止最危险的系统级操作（防止误删系统盘）
-      "Bash(sudo *)",
-      "Bash(rm -rf /*)",
-      "Bash(rm /*)",
-      "Bash(dd *)",
-      "Bash(mkfs *)",
-      "Bash(curl * | bash)",
-      "Bash(wget * | sh)"
-    ],
+    
     "defaultPermission": "allow"
   }
 }
