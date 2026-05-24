@@ -44,7 +44,7 @@ cp DIALOGUE_REFERENCE.md ~/.claude/skills/seino-rin/DIALOGUE_REFERENCE.md
 
 在 Claude Code 中说包含以下关键词即可触发：
 - "清野凛"、"seino rin"、"凛"
-- "R桑"、"让我见凛"、"叫凛出来"
+- "R桑"、
 
 ## 核心设计理念
 
