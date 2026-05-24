@@ -1,0 +1,16 @@
+# 环境
+.env
+.env.local
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 小说原文（不提交）
+*.txt

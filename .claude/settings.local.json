@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(/.claude/skills/seino-rin/**)",
+      "Bash(cp \"d:/study/个人文件/rin/.claude/skills/seino-rin/SKILL.md\" \"C:/Users/18243/.claude/skills/seino-rin/SKILL.md\")",
+      "Bash(cp \"d:/study/个人文件/rin/.claude/skills/seino-rin/DIALOGUE_REFERENCE.md\" \"C:/Users/18243/.claude/skills/seino-rin/DIALOGUE_REFERENCE.md\")",
+      "Bash(cp \"d:/study/个人文件/rin/.claude/skills/seino-rin/SKILL.md\" \"C:/Users/18243/.claude/skills/seino-rin/SKILL.md\" && echo \"Synced\")",
+      "Bash(mkdir -p \"d:/study/个人文件/rin/.claude/skills/seino-rin/scan_results\")",
+      "Bash(cat /dev/null 2>/dev/null; echo \"checking task status\")",
+      "Read(//dev/**)",
+      "Bash(rm \"d:/study/个人文件/rin/.claude/skills/seino-rin/scan_results/segment2a_ch89-118.md\")",
+      "Bash(rm \"d:/study/个人文件/rin/.claude/skills/seino-rin/scan_results/segment2b_ch118-146.md\")",
+      "Bash(rm \"d:/study/个人文件/rin/.claude/skills/seino-rin/PROJECT_HANDOFF.md\")",
+      "Bash(rm \"d:/study/个人文件/rin/.claude/skills/seino-rin/REFERENCE.md\")",
+      "Bash(rm \"C:/Users/18243/.claude/skills/seino-rin/REFERENCE.md\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)"
+    ],
+    "additionalDirectories": [
+      "d:\\study\\个人文件\\rin\\.claude\\skills\\seino-rin"
+    ]
+  }
+}
